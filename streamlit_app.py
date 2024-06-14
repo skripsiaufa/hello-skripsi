@@ -16,7 +16,7 @@ def preprocess_image(image):
     return img_array
 
 # Load your model
-model = tf.keras.models.load_model('https://github.com/skripsiaufa/hello-skripsi/blob/master/MobileNet.h5')
+model = tf.keras.models.load_model('/MobileNet.h5')
 
 # Define your label names
 label_names = ['asoka', 'kecubung', 'krokot', 'periwinkle', 'telang', 'zinnia']   # Update with your actual class names
